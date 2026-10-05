@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and Keys
+.env
+*.env
+.groq_api_key
+.openai.env
+
+# Large Video / Audio Media (DO NOT commit raw or rendered videos)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.m4a
+*.wav
+*.mp3
+
+# Project Intermediate and Output Folders
+output/
+working/
+raw/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Virtual Environment
+venv/
+.venv/
+env/
